@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1574497634 source:d:\koding\c++\tba\tubes\main.cpp
+	<iostream>
+	<vector>
+	"tubes.h"
+
+1574497362 source:d:\koding\c++\tba\tubes\tubes.cpp
+	"tubes.h"
+
+1574496895 d:\koding\c++\tba\tubes\tubes.h
+	<iostream>
+	<vector>
+
+1574497634 source:d:\koding\c++\tubes tba lexical analyzer\tubes\main.cpp
+	<iostream>
+	<vector>
+	"tubes.h"
+
+1574496895 d:\koding\c++\tubes tba lexical analyzer\tubes\tubes.h
+	<iostream>
+	<vector>
+
+1574497362 source:d:\koding\c++\tubes tba lexical analyzer\tubes\tubes.cpp
+	"tubes.h"
+
+1574497636 source:e:\tugas kuliah\tba\tubes tba lexical analyzer\tubes\main.cpp
+	<iostream>
+	<vector>
+	"tubes.h"
+
+1574496896 e:\tugas kuliah\tba\tubes tba lexical analyzer\tubes\tubes.h
+	<iostream>
+	<vector>
+
+1574517436 source:e:\tugas kuliah\tba\tubes tba lexical analyzer\tubes\tubes.cpp
+	"tubes.h"
+

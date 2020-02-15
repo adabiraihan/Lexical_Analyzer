@@ -1,0 +1,41 @@
+/**
+  *Digunakan untuk membuat inputan user menjadi lowcase, sehingga inputan kapital atau tidak dapat diterima
+  *oleh program
+  *
+  *@param string input, inputan dari user
+  *@return string input, inputan user yang sudah diubah ke huruf kecil semua
+  */
+string lowcase(string input);
+
+/**
+  *Digunakan untuk melakukan trim, sehingga tidak ada space yang berlebih
+  *misal input "    if     p then     q   ", maka setelah ditrim hasilnya akan menjadi "if p then q"
+  *
+  *@param string input, inputan dari user
+  *@return string result, inputan user yang sudah ditrim
+  */
+string trim(string input);
+
+/**
+  *Digunakan untuk memparser inputan, dan menyimpannya ke dalam vector arrLexic
+  *misal input "if p then", setelah diparser maka isi vector menjadi {"if","p","then"}
+  *
+  *@param string input, hasil inputan user yang telah ditrim
+  *@param vector<string> arrLexic, vector untuk menyimpan hasil parser
+  */
+void parser(string input, vector<string> &arrLexic);
+
+/**
+  *Digunakan untuk mendapatkan token dari elemen-elemen vector arrLexic yang didapat dari hasil parser
+  *
+  *@param string arrLexic, elemen ke-i dari vector arrLexic
+  *@return int, token dari arrLexic
+  */
+int getToken(string arrLexic);
+
+/**DIgunakan untuk mengecek apakah string inputan diterima(VALID) atau tidak(TIDAK VALID)
+  *
+  *@param vector<int> tokens, vector untuk menyimpan string token
+  *@return string, string berupa "VALID" atau "TIDAK VALID"
+  */
+string validator(vector<int> tokens);
